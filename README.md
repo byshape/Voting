@@ -13,7 +13,9 @@ Run this command in terminal
 ```
 npm install --save-dev hardhat
 ```
-When installation process is finished, run:
+When installation process is finished, create `.env` file and add `API_URL` and `PRIVATE_KEY` variables there.
+
+Run:
 * `npx hardhat test` to run tests
 * `npx hardhat coverage --solcoverjs ./.solcover.js` to get coverage report
 * `npx hardhat run --network rinkeby scripts/deploy.js` to deploy smart contract to the rinkeby testnet
